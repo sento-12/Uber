@@ -1,4 +1,3 @@
-const { use } = require("../app");
 const userModel = require("../models/user.model");
 
 module.exports.createUser = async({firstname, lastname, email, password})=>{
